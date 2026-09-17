@@ -76,7 +76,7 @@ const marquee = [...items, ...items]
 ---
 
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="green">
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -110,7 +110,15 @@ const marquee = [...items, ...items]
 			<a href="#trabalho">Trabalho</a>
 			<a href="#experiencia">Experiência</a>
 			<a href="#stack">Stack</a>
-			<a class="nav-cta" href="#contato"><span class="nav-dot"></span>vamos conversar</a>
+			<a class="nav-cta" href="https://wa.me/5521991875221?text=Ol%C3%A1%2C%20Moacyr!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">
+				<span class="nav-dot"></span>
+				<span class="nav-cta-text">
+					<span class="nav-cta-stack">
+						<span class="nav-cta-line">vamos conversar</span>
+						<span class="nav-cta-line">chamar no whatsapp</span>
+					</span>
+				</span>
+			</a>
 		</nav>
 	</header>
 
@@ -123,7 +131,7 @@ const marquee = [...items, ...items]
 					<span class="hero-line row2"><span class="inner">Kennedy</span></span>
 					<span class="hero-line row3"><span class="inner">fullstack</span></span>
 				</h1>
-				<p class="hero-sub hero-fade">Projetos <b>do conceito ao deploy</b>. Microsserviços, cloud native e aplicações que escalam com confiabilidade para <em>web e mobile</em>.</p>
+				<p class="hero-sub hero-fade">Soluções <b>que resolvem problemas reais</b>, do conceito ao produto no ar — confiáveis e prontas para crescer com <em>o seu negócio</em>, em web e mobile.</p>
 			</div>
 
 			<div class="phone-pin">
@@ -176,9 +184,7 @@ const marquee = [...items, ...items]
 					<div class="featured-links">
 						<a href="https://play.google.com/store/apps/details?id=com.comunidadeapp&pcampaignid=web_share" target="_blank" rel="noopener">Google Play →</a>
 						<a href="https://apps.apple.com/br/app/comunidadeapp-morador/id6752621439" target="_blank" rel="noopener">App Store →</a>
-						<a href="https://linkedin.com/in/moacyrkennedy" target="_blank" rel="noopener">LinkedIn →</a>
-						<a href="https://github.com/MoacyrKennedy" target="_blank" rel="noopener">GitHub →</a>
-						<a href="/curriculo.pdf" download>Baixar currículo ↓</a>
+						<a href="https://www.instagram.com/comunidadeappoficial/" target="_blank" rel="noopener">Instagram →</a>
 					</div>
 				</div>
 			</div>
@@ -317,6 +323,10 @@ const marquee = [...items, ...items]
 			<div class="footer-credit">© {new Date().getFullYear()} Moacyr Kennedy — feito com Astro, GSAP e Lenis.</div>
 		</div>
 	</footer>
+
+	<div class="detective" role="status" aria-live="polite">
+		<span class="detective-text"></span><span class="detective-caret">▍</span>
+	</div>
 
 	<script>import '../scripts/main.js'</script>
 </body>

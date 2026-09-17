@@ -30,6 +30,21 @@ if (nav) {
   })
 }
 
+const navCta = document.querySelector('.nav-cta')
+if (navCta && window.matchMedia('(hover: hover)').matches) {
+  const moveX = gsap.quickTo(navCta, 'x', { duration: 0.5, ease: 'power3.out' })
+  const moveY = gsap.quickTo(navCta, 'y', { duration: 0.5, ease: 'power3.out' })
+  navCta.addEventListener('mousemove', (e) => {
+    const rect = navCta.getBoundingClientRect()
+    moveX((e.clientX - rect.left - rect.width / 2) * 0.35)
+    moveY((e.clientY - rect.top - rect.height / 2) * 0.35)
+  })
+  navCta.addEventListener('mouseleave', () => {
+    moveX(0)
+    moveY(0)
+  })
+}
+
 const intro = gsap.timeline({ delay: 0.15 })
   .fromTo('.hero-line .inner',
     { yPercent: 118 },
@@ -159,3 +174,60 @@ gsap.fromTo(
     scrollTrigger: { trigger: '.stack-grid', start: 'top 85%' }
   }
 )
+
+function sourceLabel(referrer) {
+  if (referrer.includes('linkedin.com')) return 'do linkedin'
+  if (referrer.includes('github.com')) return 'do github'
+  if (referrer.includes('wa.me') || referrer.includes('whatsapp')) return 'do whatsapp'
+  if (referrer.includes('google.')) return 'de uma busca no google'
+  if (referrer.includes('instagram.com')) return 'do instagram'
+  if (referrer.includes('twitter.com') || referrer.includes('x.com')) return 'do x'
+  return null
+}
+
+function timeOfDayMessage(hour) {
+  if (hour < 6) return 'boa madrugada — ainda de pé codando?'
+  if (hour < 12) return 'bom dia! bora tirar um projeto do papel?'
+  if (hour < 18) return 'boa tarde — vamos falar de um projeto?'
+  return 'boa noite — depois do expediente é quando a criatividade rende'
+}
+
+function buildDetectiveMessage() {
+  const source = sourceLabel(document.referrer.toLowerCase())
+  let isReturning = false
+  try {
+    isReturning = !!localStorage.getItem('mk_visited')
+    localStorage.setItem('mk_visited', '1')
+  } catch (e) {}
+
+  let message
+  if (isReturning && source) message = `voltou vindo ${source} de novo? 👀`
+  else if (isReturning) message = 'você já esteve aqui — bem-vindo de volta 👋'
+  else if (source) message = `vi que você veio ${source} 👀`
+  else message = timeOfDayMessage(new Date().getHours())
+
+  return message.charAt(0).toUpperCase() + message.slice(1)
+}
+
+const detective = document.querySelector('.detective')
+if (detective) {
+  const textEl = detective.querySelector('.detective-text')
+  const message = buildDetectiveMessage()
+  let i = 0
+  const type = () => {
+    textEl.textContent = message.slice(0, i)
+    if (i < message.length) {
+      i++
+      setTimeout(type, 28)
+    }
+  }
+  const hide = () => detective.classList.remove('is-visible')
+
+  setTimeout(() => {
+    detective.classList.add('is-visible')
+    type()
+    setTimeout(hide, 1200 + message.length * 28 + 6000)
+  }, 2200)
+
+  detective.addEventListener('click', hide)
+}
