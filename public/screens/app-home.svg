@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" fill="none">
+  <rect width="390" height="844" fill="#F2EEE6"/>
+  <g opacity="0.9">
+    <rect x="28" y="40" width="50" height="5" rx="2.5" fill="#15120E" opacity="0.15"/>
+    <rect x="312" y="38" width="50" height="8" rx="4" stroke="#15120E" stroke-width="1.5" fill="none"/>
+    <rect x="326" y="40" width="18" height="4" rx="2" fill="#15120E" opacity="0.6"/>
+    <rect x="280" y="40" width="16" height="8" rx="2" fill="#15120E" opacity="0.3"/>
+    <circle cx="350" cy="42" r="2" fill="#4ADE80"/>
+  </g>
+  <text x="28" y="94" font-family="system-ui, sans-serif" font-size="15" fill="#15120E" opacity="0.5" font-weight="500">Bom dia, Moacyr</text>
+  <text x="28" y="126" font-family="Georgia, serif" font-size="24" fill="#15120E" font-weight="400" font-style="italic">O que vamos fazer hoje?</text>
+  <rect x="28" y="154" width="334" height="48" rx="14" fill="#15120E" opacity="0.06"/>
+  <text x="50" y="183" font-family="system-ui, sans-serif" font-size="15" fill="#15120E" opacity="0.3">Pesquisar comunidade...</text>
+  <circle cx="338" cy="178" r="14" fill="#FF4D2E"/>
+  <text x="333" y="183" font-family="system-ui, sans-serif" font-size="13" fill="#FFF" font-weight="600">+</text>
+  <rect x="28" y="222" width="334" height="200" rx="20" fill="#15120E" opacity="0.04"/>
+  <rect x="28" y="222" width="334" height="80" rx="20" fill="#FF4D2E" opacity="0.9"/>
+  <rect x="28" y="282" width="334" height="140" rx="0 0 20 20" fill="#FF4D2E" opacity="0.0"/>
+  <rect x="28" y="282" width="334" height="140" rx="0" fill="#FF4D2E" opacity="0.0"/>
+  <text x="48" y="262" font-family="system-ui, sans-serif" font-size="11" fill="#FFF" opacity="0.7" font-weight="500" letter-spacing="0.5">DESTAQUE</text>
+  <text x="48" y="286" font-family="Georgia, serif" font-size="19" fill="#FFF" font-weight="400" font-style="italic">Conecta Niterói</text>
+  <text x="48" y="308" font-family="system-ui, sans-serif" font-size="13" fill="#FFF" opacity="0.8">Comunidade Morro do Alemdar</text>
+  <rect x="48" y="332" width="72" height="26" rx="13" fill="#FFF" opacity="0.2"/>
+  <text x="60" y="349" font-family="system-ui, sans-serif" font-size="11" fill="#FFF" font-weight="500">+120 membros</text>
+  <text x="48" y="376" font-family="system-ui, sans-serif" font-size="14" fill="#15120E" opacity="0.8" font-weight="500">Próximos eventos</text>
+  <text x="48" y="396" font-family="system-ui, sans-serif" font-size="12" fill="#15120E" opacity="0.4">22 set — Capacitação Digital</text>
+  <text x="48" y="414" font-family="system-ui, sans-serif" font-size="12" fill="#15120E" opacity="0.4">28 set — Feira Comunitária</text>
+  <text x="28" y="472" font-family="system-ui, sans-serif" font-size="14" fill="#15120E" opacity="0.8" font-weight="500">Suas comunidades</text>
+  <rect x="28" y="492" width="156" height="140" rx="16" fill="#15120E" opacity="0.04"/>
+  <circle cx="56" cy="524" r="18" fill="#FF4D2E" opacity="0.12"/>
+  <text x="47" y="530" font-family="system-ui, sans-serif" font-size="13" fill="#FF4D2E" font-weight="600">I</text>
+  <text x="48" y="566" font-family="system-ui, sans-serif" font-size="13" fill="#15120E" font-weight="500">Morro do Alemdar</text>
+  <text x="48" y="584" font-family="system-ui, sans-serif" font-size="11" fill="#15120E" opacity="0.35">Niterói — RJ</text>
+  <text x="48" y="610" font-family="system-ui, sans-serif" font-size="11" fill="#4ADE80" font-weight="500">● Ativo</text>
+  <rect x="206" y="492" width="156" height="140" rx="16" fill="#15120E" opacity="0.04"/>
+  <circle cx="234" cy="524" r="18" fill="#15120E" opacity="0.06"/>
+  <text x="224" y="530" font-family="system-ui, sans-serif" font-size="13" fill="#15120E" font-weight="600">II</text>
+  <text x="224" y="566" font-family="system-ui, sans-serif" font-size="13" fill="#15120E" font-weight="500">Jardim São Bento</text>
+  <text x="224" y="584" font-family="system-ui, sans-serif" font-size="11" fill="#15120E" opacity="0.35">Niterói — RJ</text>
+  <text x="224" y="610" font-family="system-ui, sans-serif" font-size="11" fill="#4ADE80" font-weight="500">● Ativo</text>
+  <text x="28" y="680" font-family="system-ui, sans-serif" font-size="14" fill="#15120E" opacity="0.8" font-weight="500">Documentos recentes</text>
+  <rect x="28" y="700" width="334" height="56" rx="14" fill="#15120E" opacity="0.04"/>
+  <rect x="48" y="714" width="28" height="28" rx="8" fill="#FF4D2E" opacity="0.12"/>
+  <text x="54" y="733" font-family="system-ui, sans-serif" font-size="12" fill="#FF4D2E" font-weight="600">PDF</text>
+  <text x="92" y="724" font-family="system-ui, sans-serif" font-size="13" fill="#15120E" font-weight="500">Comprovante de Residência</text>
+  <text x="92" y="742" font-family="system-ui, sans-serif" font-size="11" fill="#15120E" opacity="0.35">12 set 2026 — Validado</text>
+</svg>

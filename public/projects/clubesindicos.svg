@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#E9E4D8"/>
+  <rect x="120" y="90" width="150" height="220" rx="6" fill="#FFF" opacity="0.9"/>
+  <rect x="140" y="112" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="182" y="112" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="140" y="150" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="182" y="150" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="140" y="188" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="182" y="188" width="30" height="26" rx="3" fill="#15120E" opacity="0.12"/>
+  <rect x="158" y="252" width="34" height="58" rx="2" fill="#FF4D2E" opacity="0.8"/>
+  <line x1="270" y1="200" x2="600" y2="240" stroke="#15120E" stroke-width="2" opacity="0.25"/>
+  <line x1="600" y1="240" x2="900" y2="150" stroke="#15120E" stroke-width="2" opacity="0.25"/>
+  <line x1="600" y1="240" x2="880" y2="330" stroke="#15120E" stroke-width="2" opacity="0.25"/>
+  <line x1="600" y1="240" x2="480" y2="430" stroke="#15120E" stroke-width="2" opacity="0.25"/>
+  <line x1="600" y1="240" x2="780" y2="470" stroke="#15120E" stroke-width="2" opacity="0.25"/>
+  <circle cx="600" cy="240" r="26" fill="#FF4D2E"/>
+  <circle cx="900" cy="150" r="14" fill="#15120E" opacity="0.7"/>
+  <circle cx="880" cy="330" r="14" fill="#15120E" opacity="0.7"/>
+  <circle cx="480" cy="430" r="14" fill="#15120E" opacity="0.7"/>
+  <circle cx="780" cy="470" r="14" fill="#15120E" opacity="0.7"/>
+  <circle cx="270" cy="200" r="10" fill="#15120E" opacity="0.5"/>
+  <text x="80" y="600" font-family="system-ui, sans-serif" font-size="15" fill="#15120E" opacity="0.5" letter-spacing="2">CLUBE DOS SÍNDICOS</text>
+  <text x="80" y="654" font-family="Georgia, serif" font-size="46" fill="#15120E" font-style="italic">Rede de síndicos</text>
+  <text x="80" y="704" font-family="Georgia, serif" font-size="46" fill="#15120E" font-style="italic">associados do RJ</text>
+  <text x="80" y="750" font-family="system-ui, sans-serif" font-size="16" fill="#15120E" opacity="0.55">Plataforma web para integração e comunicação entre síndicos</text>
+</svg>

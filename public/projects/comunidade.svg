@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#FF4D2E"/>
+  <text x="80" y="140" font-family="Georgia, serif" font-size="200" fill="#FFF" font-style="italic">70%</text>
+  <text x="96" y="210" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">DAS COMUNIDADES DE</text>
+  <text x="96" y="248" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">NITERÓI CONECTADAS</text>
+  <rect x="80" y="420" width="360" height="46" rx="23" fill="#FFF" opacity="0.2"/>
+  <text x="112" y="450" font-family="system-ui, sans-serif" font-size="16" fill="#FFF" font-weight="500">MVP de Grande Porte — Políticas Públicas</text>
+  <rect x="720" y="96" width="400" height="760" rx="46" fill="#15120E"/>
+  <rect x="732" y="108" width="376" height="736" rx="36" fill="#F2EEE6"/>
+  <rect x="760" y="140" width="60" height="10" rx="5" fill="#15120E" opacity="0.15"/>
+  <text x="760" y="240" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">Conecta</text>
+  <text x="760" y="280" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">Niterói</text>
+  <rect x="760" y="310" width="316" height="60" rx="16" fill="#15120E" opacity="0.05"/>
+  <text x="784" y="348" font-family="system-ui, sans-serif" font-size="16" fill="#15120E" opacity="0.35">Pesquisar comunidade...</text>
+  <rect x="760" y="400" width="316" height="240" rx="20" fill="#15120E" opacity="0.04"/>
+  <rect x="760" y="400" width="316" height="70" rx="20" fill="#FF4D2E" opacity="0.9"/>
+  <text x="784" y="436" font-family="system-ui, sans-serif" font-size="12" fill="#FFF" opacity="0.7" letter-spacing="0.6">DESTAQUE</text>
+  <text x="784" y="462" font-family="Georgia, serif" font-size="20" fill="#FFF" font-style="italic">Comunidade Morro do Alemdar</text>
+  <rect x="784" y="490" width="92" height="26" rx="13" fill="#FFF" opacity="0.25"/>
+  <text x="796" y="508" font-family="system-ui, sans-serif" font-size="11" fill="#FFF" font-weight="500">+120 membros</text>
+  <rect x="760" y="660" width="156" height="80" rx="16" fill="#15120E" opacity="0.04"/>
+  <rect x="760" y="760" width="316" height="48" rx="16" fill="#FF4D2E" opacity="0.95"/>
+  <text x="842" y="790" font-family="system-ui, sans-serif" font-size="14" fill="#FFF" font-weight="600">Participar</text>
+  <circle cx="1120" cy="44" r="10" fill="#FFF" opacity="0.5"/>
+  <circle cx="1080" cy="44" r="10" fill="#FFF" opacity="0.5"/>
+  <text x="80" y="560" font-family="system-ui, sans-serif" font-size="18" fill="#FFF" font-weight="500">Comprovante de residência · Cursos</text>
+  <text x="80" y="596" font-family="system-ui, sans-serif" font-size="18" fill="#FFF" font-weight="500">profissionalizantes · Programas sociais</text>
+  <text x="80" y="700" font-family="system-ui, sans-serif" font-size="15" fill="#FFF" opacity="0.7">.NET 8 · Node.js · Angular · Ionic · PostgreSQL · MongoDB</text>
+  <text x="80" y="730" font-family="system-ui, sans-serif" font-size="15" fill="#FFF" opacity="0.7">AWS · Docker · CI/CD</text>
+</svg>

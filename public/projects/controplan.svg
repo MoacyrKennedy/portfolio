@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#15120E"/>
+  <text x="80" y="140" font-family="system-ui, sans-serif" font-size="15" fill="#FFF" opacity="0.4" letter-spacing="2">CONTROPLAN SOFTWARE</text>
+  <text x="80" y="200" font-family="Georgia, serif" font-size="64" fill="#FFF" font-style="italic">Sistemas</text>
+  <text x="80" y="272" font-family="Georgia, serif" font-size="64" fill="#4ADE80" font-style="italic">Distribuídos</text>
+  <rect x="80" y="360" width="300" height="24" rx="12" fill="#4ADE80" opacity="0.15"/>
+  <text x="104" y="377" font-family="system-ui, sans-serif" font-size="13" fill="#4ADE80" font-weight="500">RabbitMQ · Filas · Resiliência</text>
+  <rect x="700" y="120" width="420" height="300" rx="20" fill="#FFF" opacity="0.05"/>
+  <rect x="730" y="150" width="200" height="10" rx="5" fill="#FFF" opacity="0.8"/>
+  <rect x="730" y="180" width="140" height="10" rx="5" fill="#FFF" opacity="0.3"/>
+  <rect x="730" y="240" width="60" height="120" rx="6" fill="#4ADE80" opacity="0.7"/>
+  <rect x="806" y="300" width="60" height="60" rx="6" fill="#4ADE80" opacity="0.4"/>
+  <rect x="882" y="210" width="60" height="150" rx="6" fill="#FF4D2E" opacity="0.7"/>
+  <rect x="958" y="260" width="60" height="100" rx="6" fill="#FFF" opacity="0.3"/>
+  <rect x="1034" y="280" width="60" height="80" rx="6" fill="#4ADE80" opacity="0.6"/>
+  <text x="80" y="560" font-family="system-ui, sans-serif" font-size="20" fill="#FFF" font-weight="500">Arquiteturas assíncronas com filas e alta tolerância a falhas</text>
+  <text x="80" y="596" font-family="system-ui, sans-serif" font-size="20" fill="#FFF" font-weight="500">para gestão corporativa.</text>
+  <text x="80" y="700" font-family="system-ui, sans-serif" font-size="15" fill="#FFF" opacity="0.5">.NET · Angular · RabbitMQ · AWS · Docker</text>
+</svg>

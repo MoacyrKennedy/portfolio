@@ -1,0 +1,323 @@
+---
+import '../styles/global.css'
+
+const items = [
+  'AWS', 'Docker', 'Kubernetes', 'Node.js', '.NET 8', 'Angular',
+  'Ionic', 'React', 'Java', 'Spring Boot', 'PostgreSQL', 'SQL Server',
+  'MongoDB', 'Microsserviços', 'REST APIs', 'RabbitMQ', 'Linux', 'Git',
+  'CI/CD', 'Ollama', 'LLMs'
+]
+
+const outroProjetos = [
+  {
+    img: '/projects/suportepredict.svg',
+    title: 'Suporte Predict Analytics',
+    desc: 'Sistema de previsão de chamados de suporte (Prophet) para múltiplas empresas, com 30 dias de visibilidade antecipada — rodando 100% em Python + SQLite, sem depender de infraestrutura pesada para entregar valor em produção.',
+    tags: ['Python', 'Machine Learning', 'Prophet', 'Streamlit', 'SQLite', 'Docker']
+  },
+  {
+    img: '/projects/clubesindicos.svg',
+    title: 'Clube dos Síndicos',
+    desc: 'Site para integrar síndicos associados do Rio de Janeiro, criando uma rede de comunicação entre profissionais de gestão condominial.',
+    tags: ['Site'],
+    link: 'https://www.clubedossindicos.com/'
+  },
+  {
+    img: '/projects/grm.svg',
+    title: 'GRM Gestão Documental',
+    desc: 'Microsserviços em Node.js para otimizar a gestão documental, formulários inteligentes e documentação técnica de ponta a ponta.',
+    tags: ['Node.js', 'Microsserviços', 'Formulários', 'SQL']
+  },
+  {
+    img: '/projects/controplan.svg',
+    title: 'Controplan Software',
+    desc: 'Sistemas distribuídos com arquiteturas assíncronas, filas RabbitMQ e resiliência em cloud AWS, com frontend em .NET e Angular.',
+    tags: ['.NET', 'Angular', 'RabbitMQ', 'AWS', 'Docker']
+  }
+]
+
+const experiencias = [
+  {
+    periodo: '2024 — atual',
+    cargo: 'Desenvolvedor Fullstack',
+    empresa: 'TechDog',
+    atual: true,
+    texto: 'Liderança de MVP de grande porte com visão end-to-end: aplicativo de comunidade que atende políticas públicas e impacta mais de 70% das comunidades de Niterói, com emissão de comprovantes, cursos profissionalizantes e programas sociais.',
+    tech: ['.NET 8', 'Node.js', 'Angular', 'Ionic', 'PostgreSQL', 'MongoDB', 'AWS', 'Docker']
+  },
+  {
+    periodo: '2023 — 2024',
+    cargo: 'Desenvolvedor de Software',
+    empresa: 'GRM Gestão Documental',
+    atual: false,
+    texto: 'Desenvolvimento de microsserviços em Node.js para otimizar a gestão documental corporativa, criação de formulários inteligentes e de documentação técnica.',
+    tech: ['Node.js', 'Microsserviços', 'SQL', 'Git']
+  },
+  {
+    periodo: '2022 — 2023',
+    cargo: 'Analista de Sistemas Jr.',
+    empresa: 'Controplan Software',
+    atual: false,
+    texto: 'Experiência com arquiteturas assíncronas e implantação de sistemas distribuídos com RabbitMQ para filas e resiliência. Práticas DevOps com Docker e deployments na AWS. Desenvolvimento fullstack com .NET e Angular.',
+    tech: ['.NET', 'Angular', 'RabbitMQ', 'AWS', 'Docker', 'Linux']
+  }
+]
+
+const stack = [
+  { title: 'Cloud & DevOps', itens: ['AWS (S3, EC2, Lambda)', 'Docker', 'Kubernetes', 'Git + GitFlow', 'Linux (Ubuntu, Fedora)', 'CI/CD'] },
+  { title: 'Backend', itens: ['Node.js', '.NET 8 / 7 (C#)', 'Java — Spring Boot', 'Microsserviços', 'APIs REST', 'Arquiteturas assíncronas'] },
+  { title: 'Frontend', itens: ['Angular 19', 'Ionic v8', 'React', 'HTML5 / CSS3', 'Tailwind CSS', 'Mobile Android/iOS'] },
+  { title: 'Bancos de Dados', itens: ['PostgreSQL', 'SQL Server', 'MongoDB', 'Oracle'] },
+  { title: 'Segurança & Ferramentas', itens: ['LFS184 — JS Security', 'Ollama / LLMs', 'Rider', 'Postman / Insomnia'] },
+  { title: 'Metodologias', itens: ['Ágil', 'Kanban', 'Scrum', 'Design Patterns', 'SDLC completo'] }
+]
+
+const marquee = [...items, ...items]
+---
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="generator" content={Astro.generator} />
+	<meta name="description" content="Moacyr Kennedy — Engenheiro de Software Fullstack. Microsserviços, cloud native e aplicações escaláveis para web e mobile." />
+	<meta property="og:title" content="Moacyr Kennedy — Engenheiro de Software Fullstack" />
+	<meta property="og:description" content="4+ anos construindo aplicações escaláveis, resilientes e com alta tolerância a falhas. Especialista em microsserviços." />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/projects/comunidade.svg" />
+	<script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Moacyr Kennedy Da Silva Camacho",
+    "jobTitle": "Engenheiro de Software Fullstack",
+    "email": "mailto:kenedytere@gmail.com",
+    "telephone": "+5521991875221",
+    "address": { "@type": "PostalAddress", "addressLocality": "Rio de Janeiro", "addressRegion": "RJ" },
+    "sameAs": ["https://linkedin.com/in/moacyrkennedy", "https://github.com/MoacyrKennedy"]
+  })} />
+	<title>Moacyr Kennedy — Engenheiro de Software Fullstack</title>
+	<style>
+		:root { color-scheme: light; }
+	</style>
+</head>
+<body>
+
+	<header class="nav" aria-label="Navegação principal">
+		<a class="nav-brand" href="#topo">moacyr<span>.</span>dev</a>
+		<nav class="nav-links" aria-label="Links do site">
+			<a href="#trabalho">Trabalho</a>
+			<a href="#experiencia">Experiência</a>
+			<a href="#stack">Stack</a>
+			<a class="nav-cta" href="#contato"><span class="nav-dot"></span>vamos conversar</a>
+		</nav>
+	</header>
+
+	<main id="topo">
+		<section class="wrap hero" aria-label="Apresentação">
+			<div class="hero-copy">
+				<span class="hero-tag hero-fade">✳ Engenheiro de Software — Fullstack</span>
+				<h1 class="hero-title">
+					<span class="hero-line"><span class="inner">Moacyr</span></span>
+					<span class="hero-line row2"><span class="inner">Kennedy</span></span>
+					<span class="hero-line row3"><span class="inner">fullstack</span></span>
+				</h1>
+				<p class="hero-sub hero-fade">Projetos <b>do conceito ao deploy</b>. Microsserviços, cloud native e aplicações que escalam com confiabilidade para <em>web e mobile</em>.</p>
+			</div>
+
+			<div class="phone-pin">
+				<div class="phone-sticky">
+					<div class="phone" aria-hidden="true">
+						<div class="phone-screen">
+							<img class="shot" src="/screens/app-home.svg" alt="Tela inicial do Conecta Niterói" />
+							<img class="shot" src="/screens/app-doc.svg" alt="Tela de comprovante de residência" />
+							<img class="shot" src="/screens/app-cursos.svg" alt="Tela de cursos profissionalizantes" />
+						</div>
+					</div>
+					<p class="phone-cap">App Conecta — <br />rolando pelas funcionalidades</p>
+				</div>
+			</div>
+
+			<div class="hero-meta-row hero-fade">
+				<span>● Rio de Janeiro, BR</span>
+				<span>4+ anos de experiência</span>
+				<span>Especialista em microsserviços</span>
+				<span>Disponível para novos projetos</span>
+			</div>
+		</section>
+
+		<div class="marquee" aria-hidden="true">
+			<div class="marquee-track">
+				{marquee.map((item) => (
+					<span class="marquee-item">{item}</span>
+				))}
+			</div>
+		</div>
+
+		<section class="wrap sec" id="trabalho" aria-label="Projeto em destaque">
+			<div class="sec-head" data-reveal>
+				<span class="sec-num">(01)</span>
+				<div>
+					<p class="meta">Projeto em destaque</p>
+					<h2 class="big-title">Conecta<br /><span class="em">Niterói</span></h2>
+				</div>
+			</div>
+
+			<div class="featured-grid">
+				<figure class="featured-visual">
+					<img src="/projects/comunidade.svg" alt="App Conecta Niterói — impacto nas comunidades" loading="lazy" />
+					<span class="ring"></span>
+				</figure>
+				<div>
+					<span class="featured-tag">● MVP em produção — Impacto social</span>
+					<h3 class="featured-title">Um app que conecta <span class="em">toda</span> uma Comunidade</h3>
+					<p class="featured-text">Liderei o desenvolvimento completo, com visão sistêmica, de um aplicativo de comunidade que atende políticas públicas reais: emissão de comprovantes de residência, acesso a cursos profissionalizantes e programas sociais. Do backend em microsserviços ao deploy nas lojas.</p>
+					<div class="featured-links">
+						<a href="https://play.google.com/store/apps/details?id=com.comunidadeapp&pcampaignid=web_share" target="_blank" rel="noopener">Google Play →</a>
+						<a href="https://apps.apple.com/br/app/comunidadeapp-morador/id6752621439" target="_blank" rel="noopener">App Store →</a>
+						<a href="https://linkedin.com/in/moacyrkennedy" target="_blank" rel="noopener">LinkedIn →</a>
+						<a href="https://github.com/MoacyrKennedy" target="_blank" rel="noopener">GitHub →</a>
+						<a href="/curriculo.pdf" download>Baixar currículo ↓</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="stats" data-reveal>
+				<div class="stat">
+					<div class="stat-num"><span data-count="2000" data-suffix="+">0+</span></div>
+					<div class="stat-label">comprovantes de residência emitidos</div>
+				</div>
+				<div class="stat">
+					<div class="stat-num"><span data-count="3" data-suffix="+">0+</span></div>
+					<div class="stat-label">frentes do app em produção</div>
+				</div>
+				<div class="stat">
+					<div class="stat-num"><span data-count="4" data-suffix="+">0+</span></div>
+					<div class="stat-label">anos de engenharia de software</div>
+				</div>
+			</div>
+
+			<blockquote class="press" data-reveal>
+				<div class="press-head">
+					<span class="press-logo">O <span class="em">Dia</span></span>
+					<span class="press-src">Na imprensa · Niterói · 09/09/2025</span>
+				</div>
+				<p class="press-quote">"O Comunidade App nasceu para facilitar a vida do morador e dar às associações uma ferramenta inédita de gestão."</p>
+				<cite class="press-cite">— Adriano Felício, presidente da Associação de Moradores do Morro da Penha</cite>
+				<a class="press-link" href="https://odia.ig.com.br/niteroi/2025/09/7126131-federacao-da-associacao-de-moradores-lanca-aplicativo-para-transformar-a-gestao-comunitaria.html" target="_blank" rel="noopener">Ler a matéria completa no O Dia →</a>
+			</blockquote>
+		</section>
+
+		<section class="wrap sec" aria-label="Outros projetos">
+			<div class="sec-head" data-reveal>
+				<span class="sec-num">(02)</span>
+				<div>
+					<p class="meta">Atuações anteriores</p>
+					<h2 class="big-title">Outros <span class="em">projetos</span></h2>
+				</div>
+			</div>
+
+			<div class="proj-grid">
+				{outroProjetos.map((p) => (
+					<article class="proj-card">
+						<div class="proj-img">
+							<img src={p.img} alt={p.title} loading="lazy" />
+						</div>
+						<div class="proj-body">
+							<h3>{p.link ? <a href={p.link} target="_blank" rel="noopener">{p.title} ↗</a> : p.title}</h3>
+							<p>{p.desc}</p>
+							<div class="proj-tags">
+								{p.tags.map((t) => <span>{t}</span>)}
+							</div>
+						</div>
+					</article>
+				))}
+			</div>
+		</section>
+
+		<section class="wrap sec" id="experiencia" aria-label="Experiência profissional">
+			<div class="sec-head" data-reveal>
+				<span class="sec-num">(03)</span>
+				<div>
+					<p class="meta">Trajetória</p>
+					<h2 class="big-title">Experiência <span class="em">profissional</span></h2>
+				</div>
+			</div>
+
+			<div class="timeline">
+				<div class="tl-line" aria-hidden="true"></div>
+				{experiencias.map((e) => (
+					<article class={`tl-item${e.atual ? ' current' : ''}`}>
+						<div class="tl-year">{e.periodo}</div>
+						<div class="tl-body">
+							<h3 class="tl-role">{e.cargo} <span>— {e.empresa}</span></h3>
+							<p>{e.texto}</p>
+							<div class="tl-tech">
+								{e.tech.map((t) => <span>{t}</span>)}
+							</div>
+						</div>
+					</article>
+				))}
+			</div>
+		</section>
+
+		<section class="wrap sec" id="stack" aria-label="Habilidades técnicas">
+			<div class="sec-head" data-reveal>
+				<span class="sec-num">(04)</span>
+				<div>
+					<p class="meta">Hard skills & formação</p>
+					<h2 class="big-title">Ferramentas que eu <span class="em">domino</span></h2>
+				</div>
+			</div>
+
+			<div class="stack-grid">
+				{stack.map((s) => (
+					<div class="stack-cell">
+						<h4>{s.title}</h4>
+						<ul>
+							{s.itens.map((item) => <li>{item}</li>)}
+						</ul>
+					</div>
+				))}
+			</div>
+
+			<div data-reveal>
+				<p class="meta" style="margin-top:40px;">Formação & certificações</p>
+				<div class="big-certs">
+					<span>Bacharel em Eng. de Software — UNICESUMAR (CRA 9.0)</span>
+					<span>LFS184 — JavaScript Security</span>
+					<span>CC50 — Harvard</span>
+					<span>Full Stack — Serratec/Senai (770h)</span>
+					<span>Formação Full Stack — Desenvolvedor.io</span>
+					<span>Java Spring Boot — Udemy</span>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="wrap footer" id="contato" aria-label="Contato">
+		<h2 class="cta-title"><a href="mailto:kenedytere@gmail.com">Vamos construir algo?</a></h2>
+
+		<div class="footer-grid">
+			<div class="footer-col">
+				<h5>Contato</h5>
+				<a href="mailto:kenedytere@gmail.com">kenedytere@gmail.com</a>
+				<a href="https://wa.me/5521991875221?text=Ol%C3%A1%2C%20Moacyr!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">WhatsApp — +55 (21) 99187-5221</a>
+			</div>
+			<div class="footer-col">
+				<h5>Redes</h5>
+				<a href="https://linkedin.com/in/moacyrkennedy" target="_blank" rel="noopener">LinkedIn</a>
+				<a href="https://github.com/MoacyrKennedy" target="_blank" rel="noopener">GitHub</a>
+			</div>
+			<div class="footer-col">
+				<h5>Currículo</h5>
+				<a href="/curriculo.pdf" download>Baixar PDF ↓</a>
+			</div>
+			<div class="footer-credit">© {new Date().getFullYear()} Moacyr Kennedy — feito com Astro, GSAP e Lenis.</div>
+		</div>
+	</footer>
+
+	<script>import '../scripts/main.js'</script>
+</body>
+</html>

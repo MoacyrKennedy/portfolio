@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#E9E4D8"/>
+  <rect x="60" y="60" width="480" height="560" rx="8" fill="#FFF" transform="rotate(-4 60 60)"/>
+  <rect x="90" y="90" width="380" height="20" rx="4" fill="#15120E" opacity="0.85"/>
+  <rect x="90" y="140" width="300" height="12" rx="4" fill="#15120E" opacity="0.15"/>
+  <rect x="90" y="166" width="340" height="12" rx="4" fill="#15120E" opacity="0.1"/>
+  <rect x="90" y="192" width="200" height="12" rx="4" fill="#15120E" opacity="0.15"/>
+  <rect x="90" y="220" width="24" height="24" rx="4" fill="#FF4D2E"/>
+  <rect x="130" y="220" width="220" height="10" rx="4" fill="#15120E" opacity="0.2"/>
+  <rect x="90" y="260" width="24" height="24" rx="4" fill="#FF4D2E" opacity="0.5"/>
+  <rect x="130" y="262" width="180" height="10" rx="4" fill="#15120E" opacity="0.14"/>
+  <rect x="640" y="120" width="500" height="440" rx="8" fill="#FFF" transform="rotate(3 640 120)"/>
+  <rect x="670" y="150" width="320" height="20" rx="4" fill="#15120E" opacity="0.85"/>
+  <rect x="670" y="200" width="240" height="210" rx="4" fill="#15120E" opacity="0.04"/>
+  <rect x="670" y="436" width="240" height="8" rx="4" fill="#15120E" opacity="0.1"/>
+  <rect x="670" y="456" width="120" height="8" rx="4" fill="#15120E" opacity="0.08"/>
+  <text x="80" y="700" font-family="system-ui, sans-serif" font-size="22" fill="#15120E" font-weight="500">GRM Gestão Documental</text>
+  <text x="80" y="740" font-family="system-ui, sans-serif" font-size="16" fill="#15120E" opacity="0.55">Microsserviços Node.js · Formulários inteligentes · Documentação</text>
+</svg>
