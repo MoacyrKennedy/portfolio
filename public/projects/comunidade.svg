@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
   <rect width="1200" height="800" fill="#FF4D2E"/>
-  <text x="80" y="140" font-family="Georgia, serif" font-size="200" fill="#FFF" font-style="italic">70%</text>
-  <text x="96" y="210" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">DAS COMUNIDADES DE</text>
-  <text x="96" y="248" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">NITERÓI CONECTADAS</text>
+  <text x="80" y="140" font-family="Georgia, serif" font-size="150" fill="#FFF" font-style="italic">+2.000</text>
+  <text x="96" y="210" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">COMPROVANTES DE RESIDÊNCIA</text>
+  <text x="96" y="248" font-family="system-ui, sans-serif" font-size="26" fill="#FFF" font-weight="500" letter-spacing="1">EMITIDOS EM NITERÓI</text>
   <rect x="80" y="420" width="360" height="46" rx="23" fill="#FFF" opacity="0.2"/>
   <text x="112" y="450" font-family="system-ui, sans-serif" font-size="16" fill="#FFF" font-weight="500">MVP de Grande Porte — Políticas Públicas</text>
   <rect x="720" y="96" width="400" height="760" rx="46" fill="#15120E"/>
   <rect x="732" y="108" width="376" height="736" rx="36" fill="#F2EEE6"/>
   <rect x="760" y="140" width="60" height="10" rx="5" fill="#15120E" opacity="0.15"/>
-  <text x="760" y="240" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">Conecta</text>
-  <text x="760" y="280" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">Niterói</text>
+  <text x="760" y="240" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">Comunidade</text>
+  <text x="760" y="280" font-family="Georgia, serif" font-size="34" fill="#15120E" font-style="italic">App</text>
   <rect x="760" y="310" width="316" height="60" rx="16" fill="#15120E" opacity="0.05"/>
   <text x="784" y="348" font-family="system-ui, sans-serif" font-size="16" fill="#15120E" opacity="0.35">Pesquisar comunidade...</text>
   <rect x="760" y="400" width="316" height="240" rx="20" fill="#15120E" opacity="0.04"/>

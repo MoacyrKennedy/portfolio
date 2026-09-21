@@ -14,11 +14,11 @@
   <circle cx="338" cy="178" r="14" fill="#FF4D2E"/>
   <text x="333" y="183" font-family="system-ui, sans-serif" font-size="13" fill="#FFF" font-weight="600">+</text>
   <rect x="28" y="222" width="334" height="200" rx="20" fill="#15120E" opacity="0.04"/>
-  <rect x="28" y="222" width="334" height="80" rx="20" fill="#FF4D2E" opacity="0.9"/>
+  <rect x="28" y="222" width="334" height="140" rx="20" fill="#FF4D2E" opacity="0.9"/>
   <rect x="28" y="282" width="334" height="140" rx="0 0 20 20" fill="#FF4D2E" opacity="0.0"/>
   <rect x="28" y="282" width="334" height="140" rx="0" fill="#FF4D2E" opacity="0.0"/>
   <text x="48" y="262" font-family="system-ui, sans-serif" font-size="11" fill="#FFF" opacity="0.7" font-weight="500" letter-spacing="0.5">DESTAQUE</text>
-  <text x="48" y="286" font-family="Georgia, serif" font-size="19" fill="#FFF" font-weight="400" font-style="italic">Conecta Niterói</text>
+  <text x="48" y="286" font-family="Georgia, serif" font-size="19" fill="#FFF" font-weight="400" font-style="italic">Comunidade App</text>
   <text x="48" y="308" font-family="system-ui, sans-serif" font-size="13" fill="#FFF" opacity="0.8">Comunidade Morro do Alemdar</text>
   <rect x="48" y="332" width="72" height="26" rx="13" fill="#FFF" opacity="0.2"/>
   <text x="60" y="349" font-family="system-ui, sans-serif" font-size="11" fill="#FFF" font-weight="500">+120 membros</text>
